@@ -1,0 +1,26 @@
+{
+  "name": "tripVisualizer",
+  "version": "0.1.0",
+  "description": "No description yet",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.9",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.25"
+  },
+  "engines": {
+    "node": "^6.10.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dtefendioglu/tripVisualizer"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Deniz Efendioglu <dtefendioglu@gmail.com>",
+  "license": "See license in LICENSE"
+}
