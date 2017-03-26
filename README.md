@@ -1,5 +1,6 @@
 # tripVisualizer
 
-Runs on node - call npm install to pull all packages.
+Install node + npm:
 
-Start the server executing runserver.sh, will output to bunyan.
+npm install
+npm start
