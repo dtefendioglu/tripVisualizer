@@ -1,6 +1,6 @@
-var bunyan = require('bunyan'),
+var bunyan = require("bunyan"),
 	logger = bunyan.createLogger({name: "db"}),
-	mongodb = require('mongodb');
+	mongodb = require("mongodb");
 
 var globalDB = null;
 var init = function(config, callback) {
@@ -16,7 +16,7 @@ var init = function(config, callback) {
 		}
 
 		globalDB = db;
-		db.createCollection('messages', function(err, db){});
+		db.createCollection("messages", function(err, db){});
 		callback({ "code": 0, "error": "" });
 	});
 }
