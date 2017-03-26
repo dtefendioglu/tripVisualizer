@@ -4,7 +4,7 @@
   "description": "No description yet",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js | ./node_modules/bunyan/bin/bunyan"
   },
   "dependencies": {
     "bunyan": "^1.8.9",
